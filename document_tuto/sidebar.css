@@ -1,0 +1,97 @@
+.sidemenu {
+	height: 100%;
+	/*background: rgba(26,39,38,0.8);*/
+	background-color: white;
+	width: 0px;
+	position: sticky;
+	top:80px;
+	left:0;
+	overflow-x:hidden;
+	transition: all 0.6s;
+}
+
+.sidemenu ul li a {
+	color: white;
+	text-decoration: none;
+	list-style: none;
+	margin: 20px;
+	text-align: center;
+	font-weight: 200;
+	font-size: 15px;
+
+
+
+}
+
+.sidemenu ul li {
+	padding: 10px; 
+	width: 200px; 
+	border-bottom: 2px;
+	transition: all 0.6s;
+	cursor: pointer;
+	color: black;
+	margin-left: 5px;
+}
+
+.sidemenu li.active {
+	background-color: #04AA6D!important;
+    color: #ffffff!important;
+}
+
+.sidemenu ul li:hover {
+	background-color: #7453fc;
+	border-radius: 20px;
+	color: white;
+}
+
+
+
+.page {
+	display: flex;
+	justify-content: center;
+	margin-right: 105px;
+}
+
+
+/*=======================================
+       Side bar Properties ends
+==========================================*/
+
+
+/*=======================================
+      java main content properties starts
+==========================================*/
+
+
+.title-image {
+	margin-top: -200px;
+	margin-left: -2px !important;
+}
+
+
+#mainpagecontent {
+	height: 650px;
+	background-color: #142b3d;
+	margin-top: 280px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc !important;
+	width: 800px;
+	margin-left: 350px !important;
+	background-color: rgba(44, 58, 81, 0.9);
+
+
+}
+
+#mainpagecontent .content {
+	margin-left: 50px !important;
+	font-size: 17px;
+	padding-right: 150px;
+	color: black;
+	letter-spacing: 0.5px;
+
+}
+
+#sidebarleftmenu {
+	width: 245px;
+}
